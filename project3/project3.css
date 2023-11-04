@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    padding: 0;
+    border: 0;
+}    
+.container{
+    background-color: pink;
+    border: whitesmoke;
+    border-radius: 50px;
+    block-size: 450px;
+    margin-left: 28%;
+    margin-right: 25%;
+    margin-top: 5%;
+    border-style: solid;
+    border-width: thick;
+    box-shadow: 5px 10px 20px  palevioletred;
+}
+header{
+    display:flex
+}
+h1:hover{
+    background-color: white;
+    box-shadow: 5px 10px 20px  palevioletred;
+    
+}
+h2:hover{
+    background-color: white;
+    box-shadow: 5px 10px 20px  palevioletred;
+    
+}
+h1{
+    color: purple;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 0px;
+}
+h2{
+    color: purple;
+    text-align: right;
+    margin-left:40%;
+    padding-top: 10px;
+}
+.user{
+    
+    width: 400px;
+    height: 40px;
+    margin-left: 15%;
+    margin-right: 20%;
+    
+    
+
+}
+input{
+    width: 393px;
+    height: 35px;
+    border-radius: 6%;
+    border-style:solid;
+    font-size: large;
+    color: purple;
+    border-color:pink;
+    box-shadow:  0 5px 5px purple;
+    
+}
+input:hover{
+    border-color: white;
+}
+.see{
+    display:grid;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 20%;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:18px;
+    grid-column-gap: 55PX;
+    padding-top: 20px;
+    
+    
+    
+}
+button{
+    width:60px;
+    height: 60px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 30%;
+    border-color: pink;
+    color: purple;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 5px 5px purple;
+}
+button:hover{
+    
+    border-color: white;
+    color: purple;
+    
+    box-shadow: 0 5px 5px purple;
+
+}
